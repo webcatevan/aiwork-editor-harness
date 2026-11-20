@@ -2,6 +2,7 @@
   "name": "aiwork-editor-harness",
   "private": true,
   "description": "DSH Smart Edit — harness-native editor for books and documents",
+  "homepage": "https://www.futureeditor.com",
   "scripts": {
     "build": "node packages/bundle/build.mjs",
     "typecheck": "pnpm -r run typecheck",

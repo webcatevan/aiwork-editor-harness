@@ -2,6 +2,7 @@
   "name": "@aiwork/dsh-smart-edit",
   "version": "1.0.0",
   "description": "DSH bundle: Smart Edit for books and documents (host tools + sidebar panel)",
+  "homepage": "https://www.futureeditor.com",
   "type": "module",
   "main": "dist/index.js",
   "exports": {

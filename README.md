@@ -4,6 +4,8 @@ DeepSeek Harness 的**智能编辑**插件（可安装包 `@aiwork/dsh-smart-edi
 
 与 FutureEditor / 网站编辑器**完全隔离**。需要交接文件时，用 **`.feb` v2** 导入导出（与 FutureEditor 的文件格式一致）。
 
+支持网站：<https://www.futureeditor.com>
+
 ## 宣传图
 
 ![智能编辑](market/promo/xingkong-smart-edit-hero.jpg)

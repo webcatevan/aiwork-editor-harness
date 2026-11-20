@@ -10,6 +10,8 @@ DSH 组合包：AIWork 智能编辑。一个包装齐书库、章节编辑和 Ag
 
 与 FutureEditor **完全隔离**；交换格式为 `.feb` v2，仅通过 `textbook__export_feb` / `textbook__import_feb` 交换文件。
 
+支持网站：<https://www.futureeditor.com>
+
 ## 安装
 
 在 profile 里装**这个包**（`packages/bundle`），不是 monorepo 根目录——根目录是 private 工作区，

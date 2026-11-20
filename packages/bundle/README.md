@@ -11,6 +11,8 @@ DSH bundle for AIWork Smart Edit. One package carries a library, chapter editing
 It is fully isolated from FutureEditor; `.feb` v2 files are the only exchange format
 (`textbook__export_feb` / `textbook__import_feb`).
 
+Support site: <https://www.futureeditor.com>
+
 ## Install
 
 Install **this package** (`packages/bundle`), not the repository root: the root is a
