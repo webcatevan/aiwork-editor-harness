@@ -1,0 +1,14 @@
+{
+  "name": "aiwork-editor-harness",
+  "private": true,
+  "description": "DSH Smart Edit — harness-native interactive book workshop",
+  "scripts": {
+    "build": "node packages/bundle/build.mjs",
+    "typecheck": "pnpm -r run typecheck",
+    "test": "node packages/bundle/tests/host.smoke.mjs && node packages/bundle/tests/client.smoke.mjs && pnpm -C packages/format test",
+    "verify": "node scripts/verify-profile.mjs"
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}

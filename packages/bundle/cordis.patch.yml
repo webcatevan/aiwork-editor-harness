@@ -1,0 +1,13 @@
+# Inserted when this bundle is installed into a profile.
+#
+# `smart-edit` mounts the host half: the SQLite-backed textbook library, the
+# `textbook__*` tools, the `/api/textbook/*` routes the browser panel uses, and
+# the package's own runtime skill (read from `skill/SKILL.md`).
+#
+# No absolute paths and no `!!js` here: the loader evaluates `!!js` without a
+# `require`, and a third-party bundle's install path is only known to the
+# package itself, which resolves catalog/, skill/ and its data directory from
+# its own `import.meta.url`.
+- insert:
+    - id: smart-edit
+      name: '@aiwork/dsh-smart-edit'

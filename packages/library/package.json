@@ -1,0 +1,20 @@
+{
+  "name": "@aiwork/harness-textbook-library",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Host source: node:sqlite textbook library, textbook__ tools, /api/textbook routes and the runtime skill (bundled into @aiwork/dsh-smart-edit)",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "node ../bundle/build.mjs host",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@aiwork/interactive-book-format": "file:../format"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  },
+  "license": "UNLICENSED"
+}

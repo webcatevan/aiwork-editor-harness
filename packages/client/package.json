@@ -1,0 +1,31 @@
+{
+  "name": "@aiwork/harness-client-smart-edit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Client source: the smart-edit sidebar panel and browser plugin (bundled into @aiwork/dsh-smart-edit)",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "node ../bundle/build.mjs client",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": ">=0.2.0",
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@tiptap/core": "^3.34.0",
+    "@tiptap/extension-image": "^3.34.0",
+    "@tiptap/extension-table": "^3.34.0",
+    "@tiptap/extension-text-align": "^3.34.0",
+    "@tiptap/pm": "^3.34.0",
+    "@tiptap/react": "^3.34.0",
+    "@tiptap/starter-kit": "^3.34.0",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.7.0"
+  },
+  "license": "UNLICENSED"
+}

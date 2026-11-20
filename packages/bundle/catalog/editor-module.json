@@ -1,0 +1,1431 @@
+{
+  "lang": "zh",
+  "groups": [
+    {
+      "key": "content",
+      "label": "内容块",
+      "order": 0,
+      "modules": [
+        {
+          "type": "examQuestion",
+          "name": "考试题目",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "key": "assessment",
+      "label": "测评练习",
+      "order": 1,
+      "modules": [
+        {
+          "type": "branch",
+          "name": "分支情景",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "categorize",
+          "name": "分类拖放",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "cloze",
+          "name": "完形填空",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "connectline",
+          "name": "连线题",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "draglabel",
+          "name": "拖拽标注",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "dragwords",
+          "name": "拖拽填空",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "match",
+          "name": "拖拽匹配",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "ordering",
+          "name": "排序题",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "poll",
+          "name": "投票",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "quiz",
+          "name": "练习测验",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "rubric",
+          "name": "评分量规",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "survey",
+          "name": "问卷调查",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "timedchallenge",
+          "name": "计时挑战",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "key": "media",
+      "label": "媒体交互",
+      "order": 2,
+      "modules": [
+        {
+          "type": "annotation",
+          "name": "图片标注",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "audio",
+          "name": "音频",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "carousel",
+          "name": "图集轮播",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "compare",
+          "name": "对比滑块",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "hotspot",
+          "name": "热区图",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "htmlEmbed",
+          "name": "HTML 网页",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "panorama",
+          "name": "360全景",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "video",
+          "name": "互动视频",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "key": "visual",
+      "label": "图示数据",
+      "order": 3,
+      "modules": [
+        {
+          "type": "calculator",
+          "name": "公式计算器",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chart",
+          "name": "数据图表",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "flowchart",
+          "name": "流程图",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "formula",
+          "name": "数学公式",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "knowledgeGraph",
+          "name": "知识图谱",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "labeldiagram",
+          "name": "标签图解",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mindmap",
+          "name": "思维导图",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "timeline",
+          "name": "时间轴",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "timing",
+          "name": "PLC时序图",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "wordcloud",
+          "name": "词云",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "key": "memory",
+      "label": "记忆理解",
+      "order": 4,
+      "modules": [
+        {
+          "type": "accordion",
+          "name": "折叠面板",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "classicPoem",
+          "name": "诗词详解",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "flashcard",
+          "name": "闪卡记忆",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "glossary",
+          "name": "术语词汇表",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "memorygame",
+          "name": "记忆配对",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "key": "sim",
+      "label": "仿真实训",
+      "order": 5,
+      "modules": [
+        {
+          "type": "chemAcidBaseJudge",
+          "name": "酸碱性判断",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemBurnCond",
+          "name": "燃烧条件",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemCarbonForm",
+          "name": "碳单质辨识",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemChangeType",
+          "name": "变化类型判别",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemCO2Prep",
+          "name": "二氧化碳制取",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemCO2Property",
+          "name": "二氧化碳性质",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemCrystal",
+          "name": "结晶析出",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemDisplace",
+          "name": "置换反应",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemDissolve",
+          "name": "溶解过程",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemDoubleReplace",
+          "name": "复分解条件",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemElementMatch",
+          "name": "元素符号对对碰",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemEmulsion",
+          "name": "乳化现象",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemFilterSteps",
+          "name": "过滤操作顺序",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemFireExtinguish",
+          "name": "灭火原理",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemFormulaRead",
+          "name": "化学式读写",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemFuelHeat",
+          "name": "燃料热值比较",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemGasTest",
+          "name": "气体检验",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemHardWater",
+          "name": "硬水软化直觉",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemMassConserve",
+          "name": "质量守恒天平",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemMetalProtect",
+          "name": "金属防护",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemMetalSeries",
+          "name": "金属活动性顺序",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemMoleculeBuild",
+          "name": "分子模型拼装",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemNeutralize",
+          "name": "中和反应",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemO2Prep",
+          "name": "氧气制取要点",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemO2Property",
+          "name": "氧气性质检验",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemParticleRearrange",
+          "name": "粒子重排",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemPhIndicator",
+          "name": "指示剂变色",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemPhTarget",
+          "name": "目标 pH",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemRust",
+          "name": "铁锈条件",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemSafetyCard",
+          "name": "安全警示卡",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemSaltClass",
+          "name": "盐的分类",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemSaturated",
+          "name": "饱和溶液",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemSetupMatch",
+          "name": "装置连对了吗",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "chemValencePair",
+          "name": "化合价配平入门",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "circuit",
+          "name": "电路仿真",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "codeRun",
+          "name": "代码运行",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "gcode",
+          "name": "数控路径",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "lab",
+          "name": "虚拟实验室",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathAreaCut",
+          "name": "面积割补",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathBalanceEq",
+          "name": "天平解方程",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathCentralAngle",
+          "name": "圆心角与弧",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathCircleChord",
+          "name": "圆的半径与弦",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathCongruent",
+          "name": "全等条件",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathDiffSquares",
+          "name": "平方差结构",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathDirectProp",
+          "name": "正比例函数",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathDiscIntuition",
+          "name": "根的判别直觉",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathFactorIntuition",
+          "name": "因式分解直觉",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathFuncValue",
+          "name": "函数值对应",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathGraphShift",
+          "name": "图像平移",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathInequalityDir",
+          "name": "不等式方向",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathInverseProp",
+          "name": "反比例函数",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathLikeTerms",
+          "name": "同类项合并",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathLinearKB",
+          "name": "一次函数斜率截距",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathMeanPull",
+          "name": "平均数拉动",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathMedianPick",
+          "name": "中位数挑选",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathModeHunt",
+          "name": "众数猎手",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathMoveTerms",
+          "name": "移项守恒",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathNumberLine",
+          "name": "数轴点位置",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathParallelAngles",
+          "name": "平行线内错角",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathPercentOff",
+          "name": "折扣与百分数",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathPythagoras",
+          "name": "勾股数拼直角",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathQuadVertex",
+          "name": "二次函数顶点",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathRateProblem",
+          "name": "行程问题",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathRationalOp",
+          "name": "有理数运算方向",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathReflect",
+          "name": "轴对称",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathRotate",
+          "name": "旋转角度",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathScaleMap",
+          "name": "比例尺测距",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathScatterTrend",
+          "name": "散点趋势",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathSimilarRatio",
+          "name": "相似比",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathSystemIntersect",
+          "name": "方程组交点",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathTranslate",
+          "name": "平移向量",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathTriangleAngle",
+          "name": "三角形内角和",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physBalanceScale",
+          "name": "天平找平衡",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physCircuitLight",
+          "name": "点亮小灯",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physCollisionPass",
+          "name": "力学 · 一碰开门",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physEchoRange",
+          "name": "回声测距",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physElecSafety",
+          "name": "安全用电",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physElectromagnet",
+          "name": "电磁铁吸力",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physEnergyChain",
+          "name": "能量转化链",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physEngineStroke",
+          "name": "四冲程排序",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physFloatLab",
+          "name": "浮力浮沉",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physFrictionPush",
+          "name": "摩擦力推箱",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physFuseSelect",
+          "name": "保险丝选型",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physHeatConduct",
+          "name": "热传导选材",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physInclineHold",
+          "name": "力学 · 斜面稳住",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physInductionCut",
+          "name": "切割磁感线",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physInertiaStop",
+          "name": "惯性急停",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physJouleHeat",
+          "name": "焦耳电热",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physLensImage",
+          "name": "凸透镜成像",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physLeverDoor",
+          "name": "杠杆开门",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physMagneticField",
+          "name": "磁场撒铁屑",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physMechEff",
+          "name": "机械效率",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physMeterPlace",
+          "name": "电表接法",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physMirrorAim",
+          "name": "反射打靶",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physOhmTarget",
+          "name": "欧姆定律",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physPitchString",
+          "name": "音调弦长",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physPlaneMirror",
+          "name": "平面镜成像",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physPowerMatch",
+          "name": "功率匹配",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physPressureNail",
+          "name": "压强钉板",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physPrismSplit",
+          "name": "色散分光",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physProjectileBasket",
+          "name": "力学 · 斜抛投篮",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physPulleyLift",
+          "name": "滑轮吊重",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physResistWire",
+          "name": "电阻影响因素",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physSeriesParallel",
+          "name": "串并联比较",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physShadowBlock",
+          "name": "影子成形",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physSpecificHeat",
+          "name": "比热容比较",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physSpeedRace",
+          "name": "速度冲线",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physStateChange",
+          "name": "物态变化",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physTwoForce",
+          "name": "二力平衡",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "physWorkPower",
+          "name": "功与功率",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "simulation",
+          "name": "虚拟仿真",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "stemLab",
+          "name": "2D/3D模型",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "steps",
+          "name": "步骤引导",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "wiring",
+          "name": "端子接线",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "key": "math",
+      "label": "数学思维",
+      "order": 6,
+      "modules": [
+        {
+          "type": "mathProof",
+          "name": "解题步骤",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        },
+        {
+          "type": "mathStem",
+          "name": "题干",
+          "icon": "",
+          "color": "",
+          "keywords": [],
+          "weight": "light",
+          "version": 1
+        }
+      ]
+    }
+  ]
+}
