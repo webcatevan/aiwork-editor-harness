@@ -244,7 +244,7 @@ try {
 }
 
 await checkAsync('the panel renders its shell with an empty library', async () => {
-  assert.ok(markup.includes('互动教材书库') || markup.includes('Library'), 'the library title is missing')
+  assert.ok(markup.includes('书库') || markup.includes('Library'), 'the library title is missing')
   assert.ok(markup.includes('fe-library-page'), 'the library page shell is missing')
   assert.ok(markup.includes('正在读取书库') || markup.includes('书库为空'), 'the loading/empty state is missing')
 })

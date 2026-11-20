@@ -13,7 +13,7 @@ const QUICK_EDIT_INSTRUCTIONS: Record<QuickEditMode, string> = {
 
 /** The writing-assistant system prompt of a quick edit. */
 const QUICK_EDIT_SYSTEM = [
-  '你是 DeepSeek Harness 里的教材写作助手，正在协助作者修改互动教材的一段正文。',
+  '你是 DeepSeek Harness 里的写作助手，正在协助作者修改一段正文。',
   '规则：',
   '1. 只输出修改后的正文本身，不要解释、不要加引号、不要输出 Markdown 标题或列表。',
   '2. 保持与原文相同的语言（中文原文就输出中文）。',
@@ -143,7 +143,7 @@ async function generateQuickEdit(
 
 /** The system prompt of a whole-section writing request. */
 const WRITE_SYSTEM = [
-  '你是 DeepSeek Harness 里的互动教材写作助手，正在替作者写一节正文。',
+  '你是 DeepSeek Harness 里的写作助手，正在替作者写一节正文。',
   '输出要求：',
   '1. 只输出一个 Tiptap 文档 JSON 对象：{"type":"doc","content":[...]}。不要输出 Markdown 代码块、不要解释。',
   '2. 正文用 paragraph / heading / bulletList 等节点；数学公式写成 $...$。',

@@ -1,9 +1,9 @@
 ---
 name: smart-edit
-description: 在 DSH 内编辑互动教材书库：用 textbook__* 工具读写书、篇章树和 Tiptap 正文，插入/更新互动模块块，导入导出 .feb v2 与 FutureEditor 交换；与 FutureEditor 完全隔离。
+description: 在 DSH 内编辑书库：用 textbook__* 工具读写书、篇章树和 Tiptap 正文，插入/更新互动模块块，导入导出 .feb v2 与 FutureEditor 交换；与 FutureEditor 完全隔离。
 ---
 
-# 智能编辑（DSH 教材工坊）
+# 智能编辑
 
 在 DeepSeek Harness 内读写本 profile 书库。与 FutureEditor **完全隔离**；交接请用 `textbook__export_feb` / FutureEditor「另存为 .feb」，或面板「导出 .feb」。
 

@@ -8,8 +8,8 @@
       "name": "@aiwork/dsh-smart-edit",
       "title": { "en": "Smart edit", "zh": "智能编辑" },
       "description": {
-        "en": "Interactive book workshop inside DSH with textbook__ agent tools",
-        "zh": "DSH 内互动教材工坊与 textbook__ 智能编辑工具"
+        "en": "Smart edit inside DSH: a library, chapters, and textbook__ agent tools",
+        "zh": "DSH 内的智能编辑：书库、章节与 textbook__ 工具"
       },
       "icon": "icon.svg",
       "author": "Aiwork",

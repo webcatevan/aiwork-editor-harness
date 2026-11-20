@@ -1,10 +1,10 @@
 # @aiwork/dsh-smart-edit
 
-DSH bundle for the Smart Edit interactive-book workshop. One package carries:
+DSH bundle for Smart Edit. One package carries a library, chapter editing, and agent tools:
 
 | Half | Output | What it is |
 |----|----|----|
-| Host | `dist/index.js` | SQLite (`node:sqlite`) textbook library, the `textbook__*` agent tools, and the `/api/textbook/*` routes |
+| Host | `dist/index.js` | SQLite (`node:sqlite`) book library, the `textbook__*` agent tools, and the `/api/textbook/*` routes |
 | Client | `dist/client.js` | A `window.__ModuleLoader__` factory: the 「智能编辑」sidebar panel (Tiptap rich text + JSON tabs), calling the host over HTTP |
 | Skill | `skill/SKILL.md` | Served by a second skill provider inserted by the bundle patch |
 

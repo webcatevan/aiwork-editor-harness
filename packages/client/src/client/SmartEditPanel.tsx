@@ -500,7 +500,7 @@ export function SmartEditPanel({ t }: SmartEditPanelProps): ReactNode {
           ? '续写本节：读完现有正文后接着写，保持语气、术语和结构一致，只提交新增部分的完整章节 doc。'
           : '补写本节：按标题和大纲把这一节写完整，保留已有的互动模块块。'
       const prompt = [
-        '你是这本互动教材的写作助手（Skill: smart-edit）。',
+        '你是这本书的写作助手（Skill: smart-edit）。',
         `书：《${context.book.title}》`,
         kind === 'book' ? '' : `当前章：${chapter?.title ?? ''}（rev ${chapter?.rev ?? 0}）`,
         '',

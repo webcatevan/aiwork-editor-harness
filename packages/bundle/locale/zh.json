@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "智能编辑",
-    "description": "在 DeepSeek Harness 内编辑互动教材：书库、篇章页、Tiptap 与 Agent 工具 textbook__*；与 FutureEditor 仅通过 .feb 交换。"
+    "description": "在 DeepSeek Harness 内编辑书稿与文档：书库、篇章页、Tiptap 与 Agent 工具 textbook__*；与 FutureEditor 仅通过 .feb 交换。"
   }
 }

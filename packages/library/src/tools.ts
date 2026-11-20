@@ -26,15 +26,15 @@ export function registerTextbookTools(ctx: Context, lib: TextbookLibrary) {
     ctx.tools.register(defineJsonTool({ name, description, parameters, execute }))
   }
 
-  tool(`${P}list_books`, '列出智能编辑书库中的互动书', { query: { type: 'string' } }, (args) =>
+  tool(`${P}list_books`, '列出智能编辑书库中的书', { query: { type: 'string' } }, (args) =>
     lib.listBooks(str(args.query)),
   )
 
-  tool(`${P}get_book`, '获取互动书及章节列表', { id: { type: 'string', required: true } }, (args) =>
+  tool(`${P}get_book`, '获取书及章节列表', { id: { type: 'string', required: true } }, (args) =>
     lib.getBook(str(args.id)),
   )
 
-  tool(`${P}create_book`, '新建互动书', { title: { type: 'string' } }, (args) =>
+  tool(`${P}create_book`, '新建书', { title: { type: 'string' } }, (args) =>
     lib.createBook(str(args.title, '未命名')),
   )
 
@@ -53,7 +53,7 @@ export function registerTextbookTools(ctx: Context, lib: TextbookLibrary) {
       }),
   )
 
-  tool(`${P}delete_book`, '删除互动书', { id: { type: 'string', required: true } }, (args) =>
+  tool(`${P}delete_book`, '删除书', { id: { type: 'string', required: true } }, (args) =>
     lib.deleteBook(str(args.id)),
   )
 

@@ -700,7 +700,7 @@ export class TextbookLibrary {
         ? (this.db.prepare('SELECT id FROM book WHERE id = ?').get(imp.bookMeta.id) as { id: string } | undefined)
         : undefined
     if (mode === 'update' && targetBookId && !existing) {
-      throw Object.assign(new Error('目标教材不存在'), { code: 'NOT_FOUND' })
+      throw Object.assign(new Error('目标书不存在'), { code: 'NOT_FOUND' })
     }
     let bookId: string
     const t = now()

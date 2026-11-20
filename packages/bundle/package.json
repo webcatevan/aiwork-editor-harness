@@ -1,7 +1,7 @@
 {
   "name": "@aiwork/dsh-smart-edit",
   "version": "1.0.0",
-  "description": "DSH bundle: Smart Edit interactive book workshop (host tools + sidebar panel)",
+  "description": "DSH bundle: Smart Edit for books and documents (host tools + sidebar panel)",
   "type": "module",
   "main": "dist/index.js",
   "exports": {
