@@ -1,6 +1,8 @@
-# aiwork-editor-harness
+# AIWork 智能编辑
 
-DeepSeek Harness **智能编辑**插件（可安装包 `@aiwork/dsh-smart-edit`），与 FutureEditor / 网站编辑器 **完全隔离**；图书交换格式为 **`.feb` v2**（与 FutureEditor 一致）。
+DeepSeek Harness 的**智能编辑**插件（可安装包 `@aiwork/dsh-smart-edit`）。侧栏里管理书库、编辑篇章页（Tiptap 富文本 + JSON），并用 Agent 工具 `textbook__*` 改稿。书稿不限于教材，其他成书内容同样可以编辑。
+
+与 FutureEditor / 网站编辑器**完全隔离**。需要交接文件时，用 **`.feb` v2** 导入导出（与 FutureEditor 的文件格式一致）。
 
 ## 宣传图
 
@@ -45,7 +47,7 @@ dsh plugin install link:/绝对路径/aiwork-editor-harness/packages/bundle --pr
 
 启用后：
 
-1. 侧栏 **智能编辑** 面板（书库 + 章节 JSON 编辑）
+1. 侧栏 **智能编辑** 面板（书库 + 富文本 / JSON 编辑）
 2. Agent 工具 `textbook__*`
 3. Skill `smart-edit`
 

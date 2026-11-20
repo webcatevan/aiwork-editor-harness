@@ -1,6 +1,6 @@
 # @aiwork/dsh-smart-edit
 
-DSH bundle for Smart Edit. One package carries a library, chapter editing, and agent tools:
+DSH bundle for AIWork Smart Edit. One package carries a library, chapter editing, and agent tools. Manuscripts are not limited to textbooks:
 
 | Half | Output | What it is |
 |----|----|----|
