@@ -2,6 +2,14 @@
 
 DeepSeek Harness **智能编辑**插件（可安装包 `@aiwork/dsh-smart-edit`），与 FutureEditor / 网站编辑器 **完全隔离**；图书交换格式为 **`.feb` v2**（与 FutureEditor 一致）。
 
+## 宣传图
+
+![星空AI 智能编辑](market/promo/xingkong-smart-edit-hero.jpg)
+
+| 封面 | 能力 | 海报 |
+| --- | --- | --- |
+| ![封面](market/promo/xingkong-smart-edit-cover.jpg) | ![书库、写作、待审](market/promo/xingkong-smart-edit-features.jpg) | ![海报](market/promo/xingkong-smart-edit-poster.jpg) |
+
 ## 包
 
 | 包 | 作用 | 是否可安装 |
