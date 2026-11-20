@@ -49,8 +49,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wenpu/aiwork.git",
-    "directory": "aiwork-editor-harness/packages/bundle"
+    "url": "git+https://github.com/webcatevan/aiwork-editor-harness.git",
+    "directory": "packages/bundle"
   },
   "license": "UNLICENSED",
   "devDependencies": {
