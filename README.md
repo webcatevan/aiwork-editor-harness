@@ -4,7 +4,7 @@ DeepSeek Harness **智能编辑**插件（可安装包 `@aiwork/dsh-smart-edit`�
 
 ## 宣传图
 
-![星空AI 智能编辑](market/promo/xingkong-smart-edit-hero.jpg)
+![智能编辑](market/promo/xingkong-smart-edit-hero.jpg)
 
 | 封面 | 能力 | 海报 |
 | --- | --- | --- |
